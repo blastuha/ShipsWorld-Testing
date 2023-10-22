@@ -1,0 +1,26 @@
+.vehicle-details {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  @media screen and (max-width: 480px) {
+    position: static;
+    padding: 0.4rem 0 0.4rem 0;
+  }
+}
+
+.vehicle-details__item {
+  color: #fffffe;
+  margin-bottom: 0.6rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(127, 90, 240, 0.45) 0%,
+    rgba(127, 90, 240, 0) 100%
+  );
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

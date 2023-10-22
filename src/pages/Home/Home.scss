@@ -1,0 +1,13 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  @media screen and (max-width: 768px) {
+    max-width: 600px;
+  }
+}
+
+.filter-icon {
+  margin-top: 1rem;
+}

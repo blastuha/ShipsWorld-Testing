@@ -12,7 +12,7 @@ import { VehiclesData, Vehicle } from '../../types/vehiclesData'
 import './Home.scss'
 
 export const Home: React.FC = () => {
-  const [isMobileOpen, setMobileOpen] = useState(true)
+  const [isMobileOpen, setMobileOpen] = useState(false)
   const [filter, setFilter] = useState({
     level: '',
     nation: '',
